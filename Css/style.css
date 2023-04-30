@@ -1,0 +1,25 @@
+body{
+    font-family:  "Titillium Web", sans-serif;
+    background-color: #24353F;
+}
+h1{
+    color: #17A2B8;
+}
+.form{
+    box-shadow: 5px 5px 60px 5px black ;  /* hz vr blur spread color*/
+}
+.click{
+    transition: all 1s;
+}
+.click:hover{
+    color: white !important;  /*buttons login & signup*/
+}
+.sign:hover{
+    text-decoration: underline !important;  /*links sign in & sing up*/
+}
+input::placeholder{
+    color: #96B6B6 !important;
+}
+input{
+    color:white !important; 
+}
